@@ -1,0 +1,104 @@
+@page Section1 {
+  size:8.5in 11in;
+  margin:.5in .5in .5in .5in;
+  mso-header-margin:.5in;
+  mso-footer-margin:.5in;
+  mso-paper-source:0;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+@media only screen and (min-device-width: 480px) {
+  body {
+    background-color:#666;
+  }
+
+  .page {
+    background-color:white;
+    width:7in;
+    height:9.5in; /* IDK why the size is 9.5in instead of 10 */
+    padding:.5in; /*Should subtract from the width/height*/
+    margin:30px auto;
+    box-shadow:0 0 100px #222, 0 0 10px #ffd;
+  }
+}
+
+@media print {
+  #resume {
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+    height:9.45in;
+    margin-bottom:-5pt;
+  }
+}
+
+.first {
+  font-size: 37px;
+  font-weight: 300;
+  line-height: 30px;
+  letter-spacing: -1px;
+}
+
+.last {
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: -1px;
+}
+
+.contact h4 {
+  font-weight: 300;
+  font-size: 14px;
+}
+
+h4.address  {
+  font-size: 12px;
+}
+
+.side-column {
+  width: 33%;
+  height: 9.5in;
+  /*background: #eedfca*/
+  border-right: 2px solid  black;
+  margin-top: 4px;
+}
+
+.profile  {
+  margin-right: 5px;
+  line-height: 18px;
+}
+
+.skills ol {
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 20px;
+  margin-left: 20px;
+  list-style-type: square;
+
+}
+
+.education {
+ margin-right: 5px;
+}
+
+h4.title {
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.degree {
+  font-size: 13px;
+  font-weight: 300;
+}
+
+.location {
+  font-size: 12px;
+  font-weight: 200;
+}
+
+.section-title {
+  line-height: 5px;
+  font-size: 15px;
+}
