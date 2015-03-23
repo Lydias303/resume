@@ -47,12 +47,13 @@ body {
   font-size: 40px;
   font-weight: 700;
   letter-spacing: -1px;
+  margin-bottom: 10px;
 }
 
 .contact h4 {
   font-weight: 300;
   font-size: 14px;
-  fint-height: 30px;
+  line-height: 18px;
 }
 
 h4.address  {
@@ -63,7 +64,7 @@ h4.address  {
   width: 33%;
   height: 9.5in;
   border-right: 2px solid #27bfd7;
-  margin-top: 4px;
+  margin-top: 10px;
   float: left;
   padding-right: 5px;
 }
@@ -77,7 +78,7 @@ h4.address  {
 .skills ol {
   font-weight: 300;
   font-size: 14px;
-  line-height: 20px;
+  line-height: 25px;
   margin-left: 20px;
   list-style-type: square;
 
