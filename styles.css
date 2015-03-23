@@ -140,7 +140,16 @@ h4.address  {
   font-weight: 400;
   margin-top: 10px;
   margin-bottom: 3px;
-  font-size: 11px;
+  font-size: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+ color: #27bfd7;  
 }
 
 .main-title {
